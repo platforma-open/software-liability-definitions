@@ -1,0 +1,1 @@
+# The taxonomy emitter uses the python standard library only.
