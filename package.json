@@ -1,6 +1,7 @@
 {
   "name": "@platforma-open/milaboratories.software-liability-definitions",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "pl-pkg build",
     "prepublishOnly": "pl-pkg prepublish",
