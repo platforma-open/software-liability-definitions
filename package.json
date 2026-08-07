@@ -1,8 +1,10 @@
 {
   "name": "@platforma-open/milaboratories.software-liability-definitions",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "build": "pl-pkg build",
+    "test": "PYTHONDONTWRITEBYTECODE=1 uv run --group dev pytest -q",
     "prepublishOnly": "pl-pkg prepublish",
     "do-pack": "rm -f *.tgz && pl-pkg build && pnpm pack && mv platforma-open*.tgz package.tgz",
     "changeset": "changeset",

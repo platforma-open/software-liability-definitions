@@ -11,4 +11,7 @@ log/
 *.tgz
 *.tar.gz
 *.pyc
+__pycache__/
+.pytest_cache/
+.venv/
 
